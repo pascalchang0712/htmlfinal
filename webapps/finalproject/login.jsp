@@ -99,7 +99,7 @@ PreparedStatement pstmt = null;
               }
            }else{
              %><script>alert("Invalid accountname skip to register page");</script><%
-             response.setHeader("Refresh","0;url=regpage.jsp");
+             response.setHeader("Refresh","0;url=index.jsp");
            }
         break;
 }
